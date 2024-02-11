@@ -336,7 +336,7 @@ async def handler(event):
 
             # Call synchronization
             try:
-                await validate_drive(event)
+                await validate_drive()
             except Exception as e:
                 print(f"An error occurred while synchronizing the files: {e}")
                 return 
@@ -376,6 +376,10 @@ async def handler(event):
 def generate_embed_list():
     embed_list = []
     parsed_files = metadata.parse()
+    if not parsed_files:
+        print("There are no files in metadata to output.")
+
+        return
 
     for file in parsed_files:
             file_name = parsed_files[file]['name']
