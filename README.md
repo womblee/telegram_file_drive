@@ -31,3 +31,7 @@ Edit 'app_id' and 'app_hash' to your own one, and login via the CMD afterwards. 
 Oh, and also make sure you change the 'invite_link' to a **PRIVATE** telegram **CHANNEL**.
 # PIP
 telethon, cryptography
+
+# Credits
+Inspired by 'Dev Detour' YouTube channel.
+I made everything from scratch and I barely watched the video, but it's still a pretty cool concept.
