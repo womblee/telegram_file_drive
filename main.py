@@ -60,7 +60,7 @@ from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
 # Telethon login info, you can get this at my.telegram.org
-api_id = 28693544
+api_id = 25694534
 api_hash = '3edef0ce8ff5234a97a372fda9004f'
 client = TelegramClient('anon', api_id, api_hash)
 
