@@ -6,6 +6,10 @@ This program allows you to synchronize your files in a specific folder with a Te
 
 * All files are **encrypted and cannot be viewed by anyone** but you!
 
+* Big files (20 MB+) are split into several smaller chunks.
+
+* Files are compressed.
+  
 * Files are stored without extensions in a random string format, and it loops through every one of them until it finds the one you need (usually doesn't take a long time, unless you have 1000+ files).
 
 ![image](https://github.com/womblee/telegram_file_drive/assets/52250786/d69e55d8-d625-48db-849f-89b752af25bf)
@@ -30,7 +34,7 @@ This is basically how your folder should look like.
 Edit 'app_id' and 'app_hash' to your own one, and login via the CMD afterwards. Voila.
 Oh, and also make sure you change the 'invite_link' to a **PRIVATE** telegram **CHANNEL**.
 # PIP
-telethon, cryptography
+telethon, cryptography, aiofiles, hashlib, watchdog, zlib
 
 # Credits
 Inspired by 'Dev Detour' YouTube channel.
