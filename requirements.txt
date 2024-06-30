@@ -1,2 +1,6 @@
 telethon
 cryptography
+aiofiles
+hashlib
+watchdog
+zlib
